@@ -1,6 +1,6 @@
 " Autoload the filetype for specific file extensions
-augroup filetype_yourfiletype
+augroup filetype_booty
     autocmd!
-    autocmd BufRead,BufNewFile *.booty set filetype=booty
+    autocmd BufRead,BufNewFile *.booty setlocal filetype=booty commentstring=#\ %s
 augroup END
 
